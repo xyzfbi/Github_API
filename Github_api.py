@@ -33,7 +33,7 @@ def get_user_commits(username):
     total_commits = 0
     for commit in response.json():
         repo_name = commit["name"]
-        commits_url = f"https://api.github.com/repos/{username}/{repo_name}/commits"
+        commits_url = f"https://api.github.com/repos/{username}/{repo_name}/commits" # COUNT COMMITES
         commits_response = requests.get(commits_url, timeout=5)
         if commits_response.status_code != 200:
             raise ValueError(f"{response.status_code}: {commits_response.text}")
