@@ -17,7 +17,7 @@
 
 
 ## Дополнительная информация
-* Для получения приватной ифнормации о своем профиле - расскомментировать строки:
+* Для получения приватной информации о своем профиле - расскомментировать строки:
   1. `'''HEADERS = {"Authorization": f"Bearer {TOKEN}",
              "Accept": "application/vnd.github+json"}'''`
   2. `    # response = requests.get(url, headers=HEADERS, timeout=5)`
