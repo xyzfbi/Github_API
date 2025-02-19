@@ -12,7 +12,7 @@
 `API_KEY = <ваш токен Github>`\
 Найти токен можно по пути `Settings->Developer settings->Tokens`
 ## Запуска программы
-В командной строке: `python API.py`
+В командной строке: `python Github_api.py`
 
 
 
